@@ -12,6 +12,18 @@ img {
 	font-family: Verdana;
 }
 
+.size{
+   font-size:25px;	
+}
+
+
+.space{
+	margin: 9%;
+	background-color: #BB7F63;
+	color:white;
+	font-size: 50px;
+}
+
 div{
   text-align: center;
 }
@@ -20,6 +32,9 @@ div{
     display: inline-block;
     width: -50;
     text-align: left;
+	color: navy;
+	font-size:30px;
+	margin-top: -4%;
 }
 
 body{
@@ -37,6 +52,7 @@ body{
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
+  margin:5%
 }
 
 /* Hide the images by default */
@@ -53,7 +69,8 @@ body{
 .prev,
 .next {
   cursor: pointer;
-  position: relative;
+  position: absolute;
+  right: 1080px;
   top: 40%;
   width: auto;
   padding: 16px;
